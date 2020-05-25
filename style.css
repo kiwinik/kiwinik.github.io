@@ -1,0 +1,51 @@
+ body { background: url(images/background.jpg); }
+ .fig {
+ text-align: center;
+ }
+ 
+ h3, h4 {
+ background: #f3f3f3;
+ color: Black;
+ padding: 0px;
+ } 
+ h2 {
+ background: #FFFFFF;
+ color: Black;
+ padding: 0px;
+ }
+ 
+ table {
+ margin: auto;
+ }
+ td {
+ text-align: center;
+ }
+
+.rightimg  {
+float: right;
+margin: 7px 0 7px 7px;
+}
+
+A {
+color: red; /* Цвет ссылок */
+}
+A:visited {
+color: #006400; /* Цвет посещенных ссылок */
+}
+A:active {
+color: #66CDAA; /* Цвет активных ссылок */
+}
+
+.figsign {	/* Подтекст под картинкой */
+    font: italic 0.5em Georgia, Times, serif;
+    color: #666;
+    text-align: center;
+    margin: 0 0 1.3em !important;
+}
+
+	/* img {
+		max-width: 100%;
+		height: auto;
+	} */
+
+
