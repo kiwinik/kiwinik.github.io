@@ -1,36 +1,35 @@
- body { background: url(images/background.jpg); }
- .fig {
- text-align: center;
- }
- 
- h3, h4 {
- background: #f3f3f3;
- color: Black;
- padding: 0px;
- } 
+body { 
+background: url(images/style/background.jpg); 
+font-family: "Arial"; font-size: 150%;
+margin: 20px 20px 100px 20px;
+}
+.fig {
+text-align: center;
+}
+  
  h2 {
  background: #FFFFFF;
- color: Black;
  padding: 0px;
  }
  
  table {
  margin: auto;
  }
- td {
- text-align: center;
- }
-
+ 
+.leftimg {
+float:left; /* Выравнивание по левому краю */
+margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
 .rightimg  {
-float: right;
-margin: 7px 0 7px 7px;
+float: right; /* Выравнивание по правому краю  */ 
+margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
 }
 
 A {
-color: red; /* Цвет ссылок */
+color: #006400; /* Цвет ссылок */
 }
 A:visited {
-color: #006400; /* Цвет посещенных ссылок */
+color: #004400; /* Цвет посещенных ссылок */
 }
 A:active {
 color: #66CDAA; /* Цвет активных ссылок */
@@ -39,13 +38,10 @@ color: #66CDAA; /* Цвет активных ссылок */
 .figsign {	/* Подтекст под картинкой */
     font: italic 0.5em Georgia, Times, serif;
     color: #666;
-    text-align: center;
+    text-align: left;
     margin: 0 0 1.3em !important;
 }
 
-	/* img {
-		max-width: 100%;
-		height: auto;
-	} */
-
-
+.frame {
+border: 3px solid #00a8e1;
+}
